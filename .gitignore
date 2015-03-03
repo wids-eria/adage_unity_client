@@ -1,0 +1,10 @@
+.DS_Store
+.data
+.debug
+.meta
+ADAClient*
+Assembly*
+/Library
+/ProjectSettings
+/Temp
+*.meta
