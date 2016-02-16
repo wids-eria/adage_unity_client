@@ -17,6 +17,7 @@ This work was made possible by a grant from the National Science Foundation (DRL
 ###License
 
 © 2012 Games Learning Society
+All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
