@@ -5,7 +5,7 @@ ADAGE Unity Client
 
 The ADAGE Unity Client is a package for Unity 3D that is meant to help game developers quickly integrate ADAGE logging into their games. This client is dependent on having an instance of an [ADAGE server](https://github.com/wids-eria/ADAGE) to connect to.
 
-Currently this client is under development internally and will only be updated in this repository occasionally. For more inquires about using this client and the ADAGE server code please contact markstenerson@gmail.com
+Currently this client is under development internally and will only be updated in this repository occasionally. For more inquiries about using this client and the ADAGE server code, please contact lead developer Mark Stenerson at markstenerson@gmail.com
 
 ADAGE is being developed at the [Game + Learning + Society Center](http://www.gameslearningsociety.org) at the University of Wiscsonsin - Madison with
 a partnership with [The Learning Games Network](http://www.learninggamesnetwork.org) and the [Wisconsin Institutes of Discovery](http://wid.wisc.edu)
