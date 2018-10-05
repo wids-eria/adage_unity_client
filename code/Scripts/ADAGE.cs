@@ -1557,12 +1557,12 @@ public class ADAGE : MonoBehaviour
 	
 	private void AddLogJob()
 	{
-		for(int i=0; i < ADAGE.users.Count; i++)
+		foreach (int userId in ADAGE.users.Keys)
 		{
-			ADAGEUser u = ADAGE.users[i];
+			ADAGEUser u = ADAGE.users[userId];
 			if(u.valid() && u.dataWrapper.Count > 0)
 			{
-				ADAGEUploadJob job = new ADAGEUploadJob(u.dataWrapper, u.adageAccessToken, i);
+				ADAGEUploadJob job = new ADAGEUploadJob(u.dataWrapper, u.adageAccessToken, userId);
 				if(ADAGE.Online)
 				{
 					//job.OnComplete = OnADAGEWebJobComplete;
@@ -1573,7 +1573,7 @@ public class ADAGE : MonoBehaviour
 					u.localWrapper.Add(job.GetData());
 			
 					if(u.localWrapper.Count > k_LocalWrapperMax)
-						WriteDataLocal(i);
+						WriteDataLocal(userId);
 				}
 				u.dataWrapper.Clear();
 			}
